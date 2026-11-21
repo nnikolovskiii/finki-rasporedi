@@ -2,10 +2,17 @@
 
 A unified platform for managing, processing, and visualizing academic schedules, built for the needs of FINKI (Faculty of Computer Science and Engineering). This project leverages multiple technologies to provide backend, frontend, data processing, and infrastructure automation.
 
+## 👤 My role
+
+A university team project at FINKI (October 2023 – June 2025). I wrote 210 of the 389 commits:
+most of the .NET API (43 of its 66 commits), the AWS, Docker Compose and MySQL setup, the data
+loader that imports the faculty timetable, and part of the Flutter app (27 of its 50 commits).
+The Kubernetes manifests live in [finki-rasporedi-kubernetes](https://github.com/nnikolovskiii/finki-rasporedi-kubernetes).
+
 ## 📄 Documentation
 
 - [Project Documentation (Google Doc)](https://docs.google.com/document/d/17Awdmi8-Q2PrmQs-Ad9VzF8es_htYnCphQrrHB2ceFc/edit?usp=sharing)
-- [Kubernetes Infrastructure Repository](https://github.com/nnikolovskiii/kubernetes)
+- [Kubernetes manifests (finki-rasporedi-kubernetes)](https://github.com/nnikolovskiii/finki-rasporedi-kubernetes)
 
 ## 🎬 Demo
 
@@ -14,7 +21,7 @@ A unified platform for managing, processing, and visualizing academic schedules,
 ## 🚀 Features
 
 - Data loading and transformation for academic schedules
-- Backend services for schedule management (likely .NET Core)
+- Backend services for schedule management (.NET)
 - Interactive frontend (Flutter app)
 - Containerized deployment with Docker Compose
 - Infrastructure as code with Kubernetes and AWS scripts
@@ -25,7 +32,7 @@ A unified platform for managing, processing, and visualizing academic schedules,
 ```
 .
 ├── DataLoader/                # Scripts and tools for importing/processing schedule data
-├── dotnet/                    # Backend API and microservices (likely .NET Core)
+├── dotnet/                    # Backend API and microservices (.NET)
 ├── flutter/                   # Flutter mobile app for user interaction
 ├── aws-infra/                 # AWS Infrastructure as Code (IaC) scripts/configs
 ├── mysql-init/                # MySQL initialization scripts
@@ -45,7 +52,7 @@ A unified platform for managing, processing, and visualizing academic schedules,
 - **Flutter**: Cross-platform frontend app (`/flutter`)
 - **Python**: Data processing (e.g., notebooks, scripts)
 - **Docker & Docker Compose**: Containerization and orchestration
-- **Kubernetes**: Production-grade infrastructure (see [kubernetes repo](https://github.com/nnikolovskiii/kubernetes))
+- **Kubernetes**: Production-grade infrastructure (see [kubernetes repo](https://github.com/nnikolovskiii/finki-rasporedi-kubernetes))
 - **AWS**: Cloud infrastructure (`/aws-infra`)
 - **MySQL**: Relational database
 
@@ -53,8 +60,8 @@ A unified platform for managing, processing, and visualizing academic schedules,
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/nnikolovskiii/FinkiRasporedi.git
-   cd FinkiRasporedi
+   git clone https://github.com/nnikolovskiii/finki-rasporedi.git
+   cd finki-rasporedi
    ```
 
 2. **Run with Docker Compose (all services)**
@@ -75,7 +82,7 @@ A unified platform for managing, processing, and visualizing academic schedules,
 
 ## 📦 Deployment
 
-- For Kubernetes deployment, refer to the [kubernetes repo](https://github.com/nnikolovskiii/kubernetes).
+- For Kubernetes deployment, refer to the [kubernetes repo](https://github.com/nnikolovskiii/finki-rasporedi-kubernetes).
 - AWS scripts are in `/aws-infra`.
 
 ## 📷 Visuals & Diagrams
@@ -91,7 +98,7 @@ Contributions, issues and feature requests are welcome! Please open an issue fir
 
 ## 📜 License
 
-Specify your license here (MIT, Apache 2.0, etc.).
+No licence has been chosen for this team project; please ask before reusing the code.
 
 ---
 
